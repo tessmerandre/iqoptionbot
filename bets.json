@@ -1,497 +1,67 @@
 {
-    "00:20:00": [
-      {
-        "action": "call",
-        "currency": "EURUSD-OTC",
-        "candle_time": 1
-      },
-      {
-        "action": "call",
-        "currency": "AUDCAD-OTC",
-        "candle_time": 1
-      },
-      {
-        "action": "put",
-        "currency": "NZDUSD-OTC",
-        "candle_time": 1
-      }
-    ],
-    "00:40:00": [
-      {
-        "action": "call",
-        "currency": "USDCHF",
-        "candle_time": 5
-      }
-    ],
-    "00:45:00": [
-      {
-        "action": "call",
-        "currency": "EURNZD",
-        "candle_time": 5
-      }
-    ],
-    "00:50:00": [
-      {
-        "action": "put",
-        "currency": "GBPUSD",
-        "candle_time": 5
-      }
-    ],
-    "01:05:00": [
-      {
-        "action": "put",
-        "currency": "EURJPY",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "USDCHF",
-        "candle_time": 5
-      }
-    ],
-    "01:40:00": [
-      {
-        "action": "call",
-        "currency": "AUDJPY",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "AUDCHF",
-        "candle_time": 5
-      }
-    ],
-    "02:00:00": [
-      {
-        "action": "call",
-        "currency": "USDJPY",
-        "candle_time": 5
-      }
-    ],
-    "02:55:00": [
-      {
-        "action": "call",
-        "currency": "AUDCHF",
-        "candle_time": 5
-      }
-    ],
-    "03:20:00": [
-      {
-        "action": "put",
-        "currency": "AUDCHF",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "GBPCHF",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "AUDUSD",
-        "candle_time": 5
-      }
-    ],
-    "05:20:00": [
-      {
-        "action": "call",
-        "currency": "EURNZD",
-        "candle_time": 5
-      }
-    ],
-    "05:45:00": [
-      {
-        "action": "put",
-        "currency": "USDCHF",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "USDCHF",
-        "candle_time": 5
-      }
-    ],
-    "05:50:00": [
-      {
-        "action": "call",
-        "currency": "EURUSD",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "USDJPY",
-        "candle_time": 5
-      }
-    ],
-    "06:20:00": [
-      {
-        "action": "put",
-        "currency": "USDJPY",
-        "candle_time": 5
-      }
-    ],
-    "06:30:00": [
-      {
-        "action": "put",
-        "currency": "GBPNZD",
-        "candle_time": 5
-      }
-    ],
-    "06:45:00": [
-      {
-        "action": "call",
-        "currency": "AUDCHF",
-        "candle_time": 5
-      }
-    ],
-    "06:55:00": [
-      {
-        "action": "put",
-        "currency": "EURUSD",
-        "candle_time": 5
-      }
-    ],
-    "07:20:00": [
-      {
-        "action": "put",
-        "currency": "EURAUD",
-        "candle_time": 5
-      }
-    ],
-    "07:55:00": [
-      {
-        "action": "put",
-        "currency": "AUDCAD",
-        "candle_time": 5
-      }
-    ],
-    "08:00:00": [
-      {
-        "action": "put",
-        "currency": "EURUSD",
-        "candle_time": 5
-      }
-    ],
-    "08:50:00": [
-      {
-        "action": "put",
-        "currency": "EURJPY",
-        "candle_time": 5
-      }
-    ],
-    "09:20:00": [
-      {
-        "action": "put",
-        "currency": "EURJPY",
-        "candle_time": 5
-      }
-    ],
-    "09:40:00": [
-      {
-        "action": "put",
-        "currency": "USDJPY",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "EURAUD",
-        "candle_time": 5
-      }
-    ],
-    "10:15:00": [
-      {
-        "action": "put",
-        "currency": "EURJPY",
-        "candle_time": 5
-      }
-    ],
-    "10:25:00": [
-      {
-        "action": "put",
-        "currency": "AUDNZD",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "USDJPY",
-        "candle_time": 5
-      }
-    ],
-    "10:30:00": [
-      {
-        "action": "put",
-        "currency": "AUDNZD",
-        "candle_time": 5
-      }
-    ],
-    "11:05:00": [
-      {
-        "action": "put",
-        "currency": "EURAUD",
-        "candle_time": 5
-      }
-    ],
-    "11:10:00": [
-      {
-        "action": "put",
-        "currency": "EURGBP",
-        "candle_time": 5
-      }
-    ],
-    "11:45:00": [
-      {
-        "action": "call",
-        "currency": "AUDNZD",
-        "candle_time": 5
-      }
-    ],
-    "11:55:00": [
-      {
-        "action": "put",
-        "currency": "GBPUSD",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "GBPUSD",
-        "candle_time": 5
-      }
-    ],
-    "12:00:00": [
-      {
-        "action": "put",
-        "currency": "GBPUSD",
-        "candle_time": 5
-      }
-    ],
-    "13:20:00": [
-      {
-        "action": "call",
-        "currency": "GBPNZD",
-        "candle_time": 5
-      }
-    ],
-    "14:15:00": [
-      {
-        "action": "put",
-        "currency": "GBPAUD",
-        "candle_time": 5
-      }
-    ],
-    "14:55:00": [
-      {
-        "action": "call",
-        "currency": "EURUSD",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "GBPJPY",
-        "candle_time": 5
-      }
-    ],
-    "15:00:00": [
-      {
-        "action": "call",
-        "currency": "GBPUSD",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "EURCAD",
-        "candle_time": 5
-      }
-    ],
-    "15:35:00": [
-      {
-        "action": "call",
-        "currency": "CADCHF",
-        "candle_time": 5
-      }
-    ],
-    "01:30:00": [
-      {
-        "action": "call",
-        "currency": "EURUSD",
-        "candle_time": 5
-      }
-    ],
-    "04:25:00": [
-      {
-        "action": "put",
-        "currency": "USDCAD",
-        "candle_time": 5
-      }
-    ],
-    "04:50:00": [
-      {
-        "action": "call",
-        "currency": "AUDJPY",
-        "candle_time": 5
-      }
-    ],
-    "05:40:00": [
-      {
-        "action": "call",
-        "currency": "GBPAUD",
-        "candle_time": 5
-      }
-    ],
-    "07:00:00": [
-      {
-        "action": "put",
-        "currency": "GBPUSD",
-        "candle_time": 5
-      }
-    ],
-    "07:10:00": [
-      {
-        "action": "call",
-        "currency": "USDCHF",
-        "candle_time": 5
-      }
-    ],
-    "07:30:00": [
-      {
-        "action": "put",
-        "currency": "GBPNZD",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "USDCHF",
-        "candle_time": 5
-      }
-    ],
-    "07:35:00": [
-      {
-        "action": "put",
-        "currency": "EURCAD",
-        "candle_time": 5
-      }
-    ],
-    "08:20:00": [
-      {
-        "action": "put",
-        "currency": "EURUSD",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "USDJPY",
-        "candle_time": 5
-      }
-    ],
-    "09:35:00": [
-      {
-        "action": "put",
-        "currency": "CADJPY",
-        "candle_time": 5
-      }
-    ],
-    "09:55:00": [
-      {
-        "action": "call",
-        "currency": "AUDCAD",
-        "candle_time": 5
-      },
-      {
-        "action": "call",
-        "currency": "GBPCAD",
-        "candle_time": 5
-      }
-    ],
-    "10:00:00": [
-      {
-        "action": "call",
-        "currency": "AUDJPY",
-        "candle_time": 5
-      }
-    ],
-    "11:15:00": [
-      {
-        "action": "call",
-        "currency": "AUDCAD",
-        "candle_time": 5
-      }
-    ],
-    "12:35:00": [
-      {
-        "action": "call",
-        "currency": "EURAUD",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "EURCHF",
-        "candle_time": 5
-      }
-    ],
-    "12:40:00": [
-      {
-        "action": "put",
-        "currency": "EURGBP",
-        "candle_time": 5
-      }
-    ],
-    "12:55:00": [
-      {
-        "action": "call",
-        "currency": "GBPCAD",
-        "candle_time": 5
-      }
-    ],
-    "13:10:00": [
-      {
-        "action": "put",
-        "currency": "USDJPY",
-        "candle_time": 5
-      }
-    ],
-    "13:15:00": [
-      {
-        "action": "put",
-        "currency": "AUDJPY",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "GBPJPY",
-        "candle_time": 5
-      }
-    ],
-    "13:40:00": [
-      {
-        "action": "put",
-        "currency": "AUDJPY",
-        "candle_time": 5
-      }
-    ],
-    "14:00:00": [
-      {
-        "action": "put",
-        "currency": "GBPCHF",
-        "candle_time": 5
-      }
-    ],
-    "14:40:00": [
-      {
-        "action": "put",
-        "currency": "EURCAD",
-        "candle_time": 5
-      },
-      {
-        "action": "put",
-        "currency": "GBPCAD",
-        "candle_time": 5
-      }
-    ],
-    "14:50:00": [
-      {
-        "action": "call",
-        "currency": "GBPCHF",
-        "candle_time": 5
-      }
-    ]
-  }
-  
+  "01:40:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"02:00:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"03:05:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"03:10:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"03:15:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}, {"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"04:25:00": [{"action": "put", "currency": "EURJPY-OTC", "candle_time": 5}],
+"04:30:00": [{"action": "put", "currency": "EURJPY-OTC", "candle_time": 5}],
+"04:40:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"05:10:00": [{"action": "put", "currency": "GBPUSD-OTC", "candle_time": 5}],
+"05:20:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"05:25:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"05:40:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"05:45:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"05:55:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"07:10:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"08:40:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"08:55:00": [{"action": "call", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"09:00:00": [{"action": "call", "currency": "GBPUSD-OTC", "candle_time": 5}],
+"09:20:00": [{"action": "call", "currency": "USDCHF-OTC", "candle_time": 5}],
+"11:45:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"13:30:00": [{"action": "call", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"14:05:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"14:35:00": [{"action": "call", "currency": "EURJPY-OTC", "candle_time": 5}, {"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"14:40:00": [{"action": "call", "currency": "EURJPY-OTC", "candle_time": 5}],
+"15:05:00": [{"action": "put", "currency": "USDJPY-OTC", "candle_time": 5}],
+"00:10:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"00:35:00": [{"action": "put", "currency": "GBPUSD-OTC", "candle_time": 5}],
+"00:50:00": [{"action": "call", "currency": "USDCHF-OTC", "candle_time": 5}],
+"01:05:00": [{"action": "call", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"01:35:00": [{"action": "call", "currency": "USDJPY-OTC", "candle_time": 5}],
+"02:05:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"02:20:00": [{"action": "put", "currency": "GBPUSD-OTC", "candle_time": 5}],
+"03:35:00": [{"action": "call", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"03:50:00": [{"action": "call", "currency": "EURUSD-OTC", "candle_time": 5}],
+"04:05:00": [{"action": "put", "currency": "EURJPY-OTC", "candle_time": 5}],
+"04:50:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"05:00:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"05:35:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"06:25:00": [{"action": "call", "currency": "USDCHF-OTC", "candle_time": 5}],
+"06:40:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"07:00:00": [{"action": "call", "currency": "EURGBP-OTC", "candle_time": 5}],
+"07:35:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"07:55:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"08:05:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"08:15:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"08:35:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"09:15:00": [{"action": "put", "currency": "USDJPY-OTC", "candle_time": 5}],
+"09:30:00": [{"action": "put", "currency": "GBPUSD-OTC", "candle_time": 5}],
+"09:40:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"10:35:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"10:55:00": [{"action": "put", "currency": "USDJPY-OTC", "candle_time": 5}],
+"11:15:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"11:40:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"12:00:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"12:15:00": [{"action": "put", "currency": "EURGBP-OTC", "candle_time": 5}],
+"12:35:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"13:15:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"14:10:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"14:20:00": [{"action": "put", "currency": "EURJPY-OTC", "candle_time": 5}],
+"15:15:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"15:35:00": [{"action": "put", "currency": "NZDUSD-OTC", "candle_time": 5}],
+"15:45:00": [{"action": "put", "currency": "USDCHF-OTC", "candle_time": 5}],
+"16:10:00": [{"action": "put", "currency": "EURUSD-OTC", "candle_time": 5}],
+"17:00:00": [{"action": "put", "currency": "AUDCAD-OTC", "candle_time": 5}],
+"17:35:00": [{"action": "put", "currency": "GBPUSD-OTC", "candle_time": 5}]
+}

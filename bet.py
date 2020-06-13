@@ -33,7 +33,7 @@ class Bet(Thread):
 			return
 		
 		new_amount = self.amount
-		if (current_martingale != 0 and self.last_profit != 0):
+		if current_martingale != 0 and self.last_profit != 0:
 			new_amount = new_amount + (new_amount * self.last_payout + 1) / self.last_payout
 			logging.info('{}th martingale. currency={}; amount={}; action={}; candle_time={}'.format(current_martingale, self.bet['currency'], new_amount, self.bet['action'], self.bet['candle_time']))
 		else:
@@ -54,7 +54,7 @@ class Bet(Thread):
 		self.update_last_payout()
 		
 		win, profit = self.API.check_win_v4(bet_id)
-		self.last_profit = profit
+		self.last_profit = int(profit)
 		
 		if profit <= 0:
 			logging.info('LOSS: currency={}; bet_id={}; loss={}; martingale={}'.format(self.bet['currency'], bet_id, profit, current_martingale))

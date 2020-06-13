@@ -3,7 +3,7 @@
 import json
 
 M_TYPE = 'm'
-INPUT_TYPE = None
+INPUT_TYPE = M_TYPE
 
 def read_input():
     file = open('input.txt', 'r')

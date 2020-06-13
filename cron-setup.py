@@ -17,7 +17,7 @@ def create_crons():
     with CronTab(user='root') as cron:
         cron.remove_all()
         for time in get_times():
-            job = cron.new(command='python /root/iqoption/bet-manager.py {}'.format(time))
+            job = cron.new(command='python3 /root/iqoption/bet-manager.py {}'.format(time))
             job.setall(get_cron_time_str(time))
 
 def get_cron_time_str(time):
