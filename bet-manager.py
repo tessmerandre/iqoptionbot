@@ -9,7 +9,7 @@ from bet import Bet
 def get_logging_filename():
 	hour = datetime.now().strftime("%H:%M:%S")
 	day_month = datetime.now().strftime("%d-%m")
-	return '/root/logs/{}-{}'.format(day_month, hour)
+	return '/logs/{}-{}'.format(day_month, hour)
 
 logging.basicConfig(filename=get_logging_filename(),
 					level=logging.INFO,
@@ -30,10 +30,6 @@ while True:
 			break
 	
 		time.sleep(1)
-
-def get_bets_filename():
-	relative_path = os.path.dirname(os.path.realpath(__file__))
-	return 'bets.json' if relative_path == '' else relative_path+'/bets.json'
 
 def current_balance():
 	return API.get_balance()
@@ -62,7 +58,7 @@ def bet(bets):
 
 def find_bets():
 	time = sys.argv[1]
-	with open(get_bets_filename()) as json_file:
+	with open('/bot/bets.json') as json_file:
 		data = json.load(json_file)
 		bets = data[time]
 		bet(bets)
