@@ -35,7 +35,7 @@ def current_balance():
 	return API.get_balance()
 
 def get_amount_for_bet():
-	return current_balance() * 0.03
+	return current_balance() * 0.01
 
 def bet(bets):
 	initial_amount = get_amount_for_bet()
