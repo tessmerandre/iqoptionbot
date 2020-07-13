@@ -35,7 +35,8 @@ def current_balance():
 	return API.get_balance()
 
 def get_amount_for_bet():
-	return current_balance() * get_bot_config()['bet-percentage']
+    amount = current_balance() * get_bot_config()['bet-percentage']
+    return 2 if amount < 2 else amount
 
 def bet(bets):
 	initial_amount = get_amount_for_bet()
