@@ -17,7 +17,7 @@ logging.basicConfig(filename=get_logging_filename(),
 
 MAX_MARTINGALE = 4
 
-API = IQ_Option('tessmerandre@gmail.com', 'Andre123')
+API = IQ_Option('x', 'x') # should be poiting to the bot config
 API.connect()
 API.change_balance('REAL') # PRACTICE / REAL
 
